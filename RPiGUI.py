@@ -51,7 +51,7 @@ pin_setup()
 controls_window = Tk()
 controls_window.title('LED Control')
 
-my_font = tkinter.font.font(family = 'Helvetica', size = 12, weight = 'bold')
+my_font = tkinter.font.Font(family = 'Helvetica', size = 12, weight = 'bold')
 
 # Buttons
 
